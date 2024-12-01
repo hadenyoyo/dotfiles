@@ -1,0 +1,114 @@
+@define-color text-color black;
+@define-color hover-color #968b71;
+
+* {
+    font-family: "JetBrainsMono";
+    font-weight: bold;
+    font-size: 100%;
+    padding: 1px;
+}
+
+window#waybar {
+    background-color: rgba(186, 151, 76, 0);
+    border-radius: 10px;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+window#waybar.empty {
+    background-color: transparent;
+}
+
+
+#clock,
+#battery,
+#disk,
+#temperature,
+#network,
+#pulseaudio,
+#wireplumber,
+#clock,
+#cpu,
+#memory {
+    color: @text-color;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#clock {
+    border-radius: 20px;
+}
+
+#pulseaudio:hover {
+    background-color: @hover-color;
+    border-radius: 15px;
+}
+
+#workspaces button {
+    margin: 1px;
+    padding: 0 5px;
+    background-color: transparent;
+    color: @text-color;
+}
+
+#workspaces button:hover {
+    background: @hover-color;
+    box-shadow: none;
+}
+
+#window {
+    color: @text-color;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-radius: 12px;
+}
+
+#clock {
+    margin-left: 10px;
+    background-color: #64727D;
+}
+
+
+#battery.charging, #battery.plugged {
+    color: #ffffff;
+    background-color: #26A65B;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+/* Using steps() instead of linear as a timing function to limit cpu usage */
+#battery.critical:not(.charging) {
+    background-color: #f53c3c;
+    color: #ffffff;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+label:focus {
+    background-color: #000000;
+}
+
+#wireplumber {
+    background-color: #fff0f5;
+    color: #000000;
+}
+
+#wireplumber.muted {
+    background-color: #f53c3c;
+}
