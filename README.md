@@ -1,7 +1,6 @@
 # Haden's Dotfiles
 
-- Clone repo
-
+- Clone repo  
 `git clone https://github.com/hadenyoyo/dotfiles/`
 
 - `cd dotfiles`, `stow .`

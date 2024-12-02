@@ -33,6 +33,7 @@ window#waybar.empty {
 #wireplumber,
 #clock,
 #cpu,
+#bluetooth,
 #memory {
     color: @text-color;
     padding-top: 3px;
@@ -60,6 +61,10 @@ window#waybar.empty {
 #workspaces button:hover {
     background: @hover-color;
     box-shadow: none;
+}
+
+#workspaces button.active {
+  background: #e0dfc8;
 }
 
 #window {
