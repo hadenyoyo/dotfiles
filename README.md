@@ -24,5 +24,5 @@ Bluetooth
 - `bluez`, `bluez-utils`, `blueman`
 
 ```
-sudo pacman -s hyprpicker spotify-launcher bluez bluez-utils blueman
+sudo pacman -S hyprpicker spotify-launcher bluez bluez-utils blueman
 ```
