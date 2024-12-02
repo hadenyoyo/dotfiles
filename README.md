@@ -12,9 +12,17 @@
 - `waybar`
 - `hyprshot`
 
+```
+sudo pacman -S hyprland stow hyprpaper waybar hyprshot
+```
+
 ### Optional
 - `hyprpicker`
 - `spotify-launcher`
 
 Bluetooth
 - `bluez`, `bluez-utils`, `blueman`
+
+```
+sudo pacman -s hyprpicker spotify-launcher bluez bluez-utils blueman
+```
