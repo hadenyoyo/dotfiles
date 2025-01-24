@@ -4,7 +4,7 @@
 * {
     font-family: "JetBrainsMono";
     font-weight: bold;
-    font-size: 100%;
+    font-size: 1em;
     padding: 1px;
 }
 
@@ -42,10 +42,6 @@ window#waybar.empty {
     padding-right: 10px;
 }
 
-#clock {
-    border-radius: 20px;
-}
-
 #pulseaudio:hover {
     background-color: @hover-color;
     border-radius: 15px;
@@ -77,8 +73,9 @@ window#waybar.empty {
 }
 
 #clock {
+    border-radius: 20px;
     margin-left: 10px;
-    background-color: #64727D;
+    background-color: #8899A6;
 }
 
 

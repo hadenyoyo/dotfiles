@@ -90,7 +90,9 @@
 
     "bluetooth": {
       "on-click": "blueman-manager",
-      "format": " {status}"
+      "format": " {status}",
+      "format-disabled": " ",
+      "format-on": " "
     }, 
 
     "pulseaudio": {
