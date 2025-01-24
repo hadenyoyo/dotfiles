@@ -11,9 +11,15 @@
 - `hyprpaper`
 - `waybar`
 - `hyprshot`
+- `fastfetch`
+- `rofi-wayland`
+- `firefox`
+- `ttf-hack`
+- `otf-font-awesome`
 
 ```
-sudo pacman -S hyprland stow hyprpaper waybar hyprshot
+sudo pacman -S hyprland stow hyprpaper waybar fastfetch rofi-wayland firefox ttf-hack otf-font-awesome
+yay -S hyprshot
 ```
 
 ### Optional
