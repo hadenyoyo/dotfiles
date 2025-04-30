@@ -15,3 +15,5 @@ alias v='nvim'
 alias c='clear'
 
 export HYPRSHOT_DIR="/home/haden/Screenshots"
+
+eval "$(fzf --bash)"

@@ -18,8 +18,6 @@ sudo pacman -S stow git
 - `fastfetch`
 - `rofi-wayland`
 - `firefox`
-- `ttf-hack`
-- `otf-font-awesome`
 - `nwg-display`
 - `pipewire`, `pipewire-pulse`, `wireplumber`
 - `pavucontrol`
@@ -29,13 +27,19 @@ sudo pacman -S hyprland stow hyprpaper waybar fastfetch rofi-wayland firefox ttf
 yay -S hyprshot
 ```
 
+### Fonts
+- `ttf-hack`
+- `otf-font-awesome`
+- `ttf-jetbrains-mono`
+- Windows fonts (optional)
+
 ### Optional
 - `hyprpicker`
 - `spotify-launcher`
 
-Bluetooth
+## Bluetooth
 - `bluez`, `bluez-utils`, `blueman`
 
 ```
-sudo pacman -S hyprpicker spotify-launcher bluez bluez-utils blueman
+sudo pacman -S bluez bluez-utils blueman
 ```
