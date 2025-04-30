@@ -1,6 +1,10 @@
 # Haden's Dotfiles
 
-- Clone repo  
+- Clone repo
+```
+sudo pacman -S stow git
+```
+
 `git clone https://github.com/hadenyoyo/dotfiles/`
 
 - `cd dotfiles`, `stow .`
@@ -16,9 +20,12 @@
 - `firefox`
 - `ttf-hack`
 - `otf-font-awesome`
+- `nwg-display`
+- `pipewire`, `pipewire-pulse`, `wireplumber`
+- `pavucontrol`
 
 ```
-sudo pacman -S hyprland stow hyprpaper waybar fastfetch rofi-wayland firefox ttf-hack otf-font-awesome
+sudo pacman -S hyprland stow hyprpaper waybar fastfetch rofi-wayland firefox ttf-hack otf-font-awesome nwg-display pipewire pipewire-pulse wireplumber pavucontrol
 yay -S hyprshot
 ```
 
