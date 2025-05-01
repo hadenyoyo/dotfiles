@@ -1,5 +1,6 @@
-@define-color text-color black;
-@define-color hover-color #968b71;
+@define-color text-color #A4A4A4;
+@define-color hover-color #8B633F;
+@define-color widget-background rgba(94, 87, 119, 0.5);
 
 * {
     font-family: "JetBrainsMono";
@@ -60,7 +61,7 @@ window#waybar.empty {
 }
 
 #workspaces button.active {
-  background: #e0dfc8;
+  background: @widget-background;
 }
 
 #window {
@@ -75,7 +76,7 @@ window#waybar.empty {
 #clock {
     border-radius: 20px;
     margin-left: 10px;
-    background-color: #8899A6;
+    background-color: @widget-background;
 }
 
 
