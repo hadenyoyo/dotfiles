@@ -1,11 +1,13 @@
 # Haden's Dotfiles
 
+## Laptop Configuration
+
 - Clone repo  
 `git clone https://github.com/hadenyoyo/dotfiles/`
 
 - `cd dotfiles`, `stow .`
 
-## Required packages
+### Required packages
 - `hyprland`
 - `stow`
 - `hyprpaper`
